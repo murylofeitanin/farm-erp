@@ -1,0 +1,9 @@
+# saída de build do artefato claude.ai (gerada por ./build.sh)
+dist/
+# nunca versionar segredos
+.env
+.env.*
+*.pem
+supabase/.temp/
+node_modules/
+.DS_Store
